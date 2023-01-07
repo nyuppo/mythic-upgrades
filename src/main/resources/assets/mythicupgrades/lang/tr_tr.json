@@ -1,0 +1,77 @@
+{
+  "item.mythicupgrades.ruby": "Yakut",
+  "item.mythicupgrades.sapphire": "Safir",
+  "item.mythicupgrades.jade": "Yeşim",
+  "item.mythicupgrades.topaz": "Topaz",
+  "item.mythicupgrades.ametrine": "Ametrin",
+  "item.mythicupgrades.aquamarine": "Akuamarin",
+
+  "item.mythicupgrades.ruby_apple": "Yakut Elma",
+  "item.mythicupgrades.sapphire_apple": "Safir Elma",
+  "item.mythicupgrades.jade_apple": "Yeşim Elma",
+  "item.mythicupgrades.topaz_apple": "Topaz Elma",
+  "item.mythicupgrades.ametrine_apple": "Ametrin Elma",
+  "item.mythicupgrades.aquamarine_fish": "Akuamarin Balık",
+
+  "item.mythicupgrades.ruby_netherite_axe": "Yakut Netherit Balta",
+  "item.mythicupgrades.ruby_netherite_sword": "Yakut Netherit Kılıç",
+  "item.mythicupgrades.ruby_netherite_pickaxe": "Yakut Netherit Kazma",
+  "item.mythicupgrades.ruby_netherite_shovel": "Yakut Netherit Kürek",
+  "item.mythicupgrades.ruby_netherite_hoe": "Yakut Netherit Çapa",
+
+  "item.mythicupgrades.sapphire_netherite_axe": "Safir Netherit Balta",
+  "item.mythicupgrades.sapphire_netherite_sword": "Safir Kılıç",
+  "item.mythicupgrades.sapphire_netherite_pickaxe": "Safir Netherit Kazma",
+  "item.mythicupgrades.sapphire_netherite_shovel": "Safir Netherit Kürek",
+  "item.mythicupgrades.sapphire_netherite_hoe": "Safir Netherit Çapa",
+
+  "item.mythicupgrades.jade_netherite_helmet": "Yeşim Netherit Kask",
+  "item.mythicupgrades.jade_netherite_chestplate": "Yeşim Netherit Göğüslük",
+  "item.mythicupgrades.jade_netherite_leggings": "Yeşim Netherit Pantolon",
+  "item.mythicupgrades.jade_netherite_boots": "Yeşim Netherit Bot",
+
+  "item.mythicupgrades.topaz_netherite_axe": "Topaz Netherit Balta",
+  "item.mythicupgrades.topaz_netherite_sword": "Topaz Netherit Kılıç",
+  "item.mythicupgrades.topaz_netherite_pickaxe": "Topaz Netherit Kazma",
+  "item.mythicupgrades.topaz_netherite_shovel": "Topaz Netherit Kürek",
+  "item.mythicupgrades.topaz_netherite_hoe": "Topaz Netherit Çapa",
+  "item.mythicupgrades.topaz_netherite_helmet": "Topaz Netherit Kask",
+  "item.mythicupgrades.topaz_netherite_chestplate": "Topaz Netherit Göğüslük",
+  "item.mythicupgrades.topaz_netherite_leggings": "Topaz Netherit Pantolon",
+  "item.mythicupgrades.topaz_netherite_boots": "Topaz Netherit Bot",
+
+  "item.mythicupgrades.ametrine_netherite_helmet": "Ametrin Netherit Kask",
+  "item.mythicupgrades.ametrine_netherite_chestplate": "Ametrin Netherit Göğüslük",
+  "item.mythicupgrades.ametrine_netherite_leggings": "Ametrin Netherit Pantolon",
+  "item.mythicupgrades.ametrine_netherite_boots": "Ametrin Netherit Bot",
+
+  "item.mythicupgrades.aquamarine_netherite_helmet": "Akuamarin Netherit Kask",
+  "item.mythicupgrades.aquamarine_netherite_chestplate": "Akuamarin Netherit Göğüslük",
+  "item.mythicupgrades.aquamarine_netherite_leggings": "Akuamarin Netherit Pantolon",
+  "item.mythicupgrades.aquamarine_netherite_boots": "Akuamarin Netherit Bot",
+
+  "itemGroup.mythicupgrades.mythicupgradesgroup": "Mythic Upgrades",
+
+  "block.mythicupgrades.sapphire_ore": "Safir Cevheri",
+  "block.mythicupgrades.deepslate_sapphire_ore": "Derin Kayrak Safir Cevheri",
+  "block.mythicupgrades.sapphire_block": "Safir Bloğu",
+
+  "block.mythicupgrades.ruby_ore": "Yakut Cevheri",
+  "block.mythicupgrades.deepslate_ruby_ore": "Derin Kayrak Yakut Cevheri",
+  "block.mythicupgrades.ruby_block": "Yakut Bloğu",
+
+  "block.mythicupgrades.jade_ore": "Yeşim Cevheri",
+  "block.mythicupgrades.deepslate_jade_ore": "Derin Kayrak Yeşim Cevheri",
+  "block.mythicupgrades.jade_block": "Yeşim Bloğu",
+
+  "block.mythicupgrades.topaz_ore": "Topaz Cevheri",
+  "block.mythicupgrades.deepslate_topaz_ore": "Derin Kayrak Topaz Cevheri",
+  "block.mythicupgrades.topaz_block": "Topaz Bloğu",
+
+  "block.mythicupgrades.ametrine_ore": "Ametrin Cevheri",
+  "block.mythicupgrades.ametrine_block": "Ametrin Bloğu",
+
+  "block.mythicupgrades.aquamarine_ore": "Akuamarin Cevheri",
+  "block.mythicupgrades.deepslate_aquamarine_ore": "Derin Kayrak Akuamarin Cevheri",
+  "block.mythicupgrades.aquamarine_block": "Akuamarin Bloğu"
+}

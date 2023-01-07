@@ -1,0 +1,77 @@
+{
+  "item.mythicupgrades.ruby": "Ruby",
+  "item.mythicupgrades.sapphire": "Sapphire",
+  "item.mythicupgrades.jade": "Jade",
+  "item.mythicupgrades.topaz": "Topaz",
+  "item.mythicupgrades.ametrine": "Ametrine",
+  "item.mythicupgrades.aquamarine": "Aquamarine",
+
+  "item.mythicupgrades.ruby_apple": "Ruby Apple",
+  "item.mythicupgrades.sapphire_apple": "Sapphire Apple",
+  "item.mythicupgrades.jade_apple": "Jade Apple",
+  "item.mythicupgrades.topaz_apple": "Topaz Apple",
+  "item.mythicupgrades.ametrine_apple": "Ametrine Apple",
+  "item.mythicupgrades.aquamarine_fish": "Aquamarine Fish",
+
+  "item.mythicupgrades.ruby_netherite_axe": "Ruby Netherite Axe",
+  "item.mythicupgrades.ruby_netherite_sword": "Ruby Netherite Sword",
+  "item.mythicupgrades.ruby_netherite_pickaxe": "Ruby Netherite Pickaxe",
+  "item.mythicupgrades.ruby_netherite_shovel": "Ruby Netherite Shovel",
+  "item.mythicupgrades.ruby_netherite_hoe": "Ruby Netherite Hoe",
+
+  "item.mythicupgrades.sapphire_netherite_axe": "Sapphire Netherite Axe",
+  "item.mythicupgrades.sapphire_netherite_sword": "Sapphire Sword",
+  "item.mythicupgrades.sapphire_netherite_pickaxe": "Sapphire Netherite Pickaxe",
+  "item.mythicupgrades.sapphire_netherite_shovel": "Sapphire Netherite Shovel",
+  "item.mythicupgrades.sapphire_netherite_hoe": "Sapphire Netherite Hoe",
+
+  "item.mythicupgrades.jade_netherite_helmet": "Jade Netherite Helmet",
+  "item.mythicupgrades.jade_netherite_chestplate": "Jade Netherite Chestplate",
+  "item.mythicupgrades.jade_netherite_leggings": "Jade Netherite Leggings",
+  "item.mythicupgrades.jade_netherite_boots": "Jade Netherite Boots",
+
+  "item.mythicupgrades.topaz_netherite_axe": "Topaz Netherite Axe",
+  "item.mythicupgrades.topaz_netherite_sword": "Topaz Netherite Sword",
+  "item.mythicupgrades.topaz_netherite_pickaxe": "Topaz Netherite Pickaxe",
+  "item.mythicupgrades.topaz_netherite_shovel": "Topaz Netherite Shovel",
+  "item.mythicupgrades.topaz_netherite_hoe": "Topaz Netherite Hoe",
+  "item.mythicupgrades.topaz_netherite_helmet": "Topaz Netherite Helmet",
+  "item.mythicupgrades.topaz_netherite_chestplate": "Topaz Netherite Chestplate",
+  "item.mythicupgrades.topaz_netherite_leggings": "Topaz Netherite Leggings",
+  "item.mythicupgrades.topaz_netherite_boots": "Topaz Netherite Boots",
+
+  "item.mythicupgrades.ametrine_netherite_helmet": "Ametrine Netherite Helmet",
+  "item.mythicupgrades.ametrine_netherite_chestplate": "Ametrine Netherite Chestplate",
+  "item.mythicupgrades.ametrine_netherite_leggings": "Ametrine Netherite Leggings",
+  "item.mythicupgrades.ametrine_netherite_boots": "Ametrine Netherite Boots",
+
+  "item.mythicupgrades.aquamarine_netherite_helmet": "Aquamarine Netherite Helmet",
+  "item.mythicupgrades.aquamarine_netherite_chestplate": "Aquamarine Netherite Chestplate",
+  "item.mythicupgrades.aquamarine_netherite_leggings": "Aquamarine Netherite Leggings",
+  "item.mythicupgrades.aquamarine_netherite_boots": "Aquamarine Netherite Boots",
+
+  "itemGroup.mythicupgrades.mythicupgradesgroup": "Mythic Upgrades",
+
+  "block.mythicupgrades.sapphire_ore": "Sapphire Ore",
+  "block.mythicupgrades.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.mythicupgrades.sapphire_block": "Block of Sapphire",
+
+  "block.mythicupgrades.ruby_ore": "Ruby Ore",
+  "block.mythicupgrades.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.mythicupgrades.ruby_block": "Block of Ruby",
+
+  "block.mythicupgrades.jade_ore": "Jade Ore",
+  "block.mythicupgrades.deepslate_jade_ore": "Deepslate Jade Ore",
+  "block.mythicupgrades.jade_block": "Block of Jade",
+
+  "block.mythicupgrades.topaz_ore": "Topaz Ore",
+  "block.mythicupgrades.deepslate_topaz_ore": "Deepslate Topaz Ore",
+  "block.mythicupgrades.topaz_block": "Block of Topaz",
+
+  "block.mythicupgrades.ametrine_ore": "Ametrine Ore",
+  "block.mythicupgrades.ametrine_block": "Block of Ametrine",
+
+  "block.mythicupgrades.aquamarine_ore": "Aquamarine Ore",
+  "block.mythicupgrades.deepslate_aquamarine_ore": "Deepslate Aquamarine Ore",
+  "block.mythicupgrades.aquamarine_block": "Block of Aquamarine"
+}
