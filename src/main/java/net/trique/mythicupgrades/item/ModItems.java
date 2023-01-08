@@ -2,6 +2,8 @@ package net.trique.mythicupgrades.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ArmorItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ShovelItem;
@@ -90,9 +92,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MYTHIC_UPGRADES_GROUP).food(ModFoodComponents.AMETRINE_APPLE)));
 
     public static final Item AMETRINE_NETHERITE_HELMET = registerItem("ametrine_netherite_helmet",
-            new AmetrineSpeed(ModArmorMaterials.AMETRINE_NETHERITE, EquipmentSlot.HEAD, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
+            new ArmorEffectItem(ModArmorMaterials.AMETRINE_NETHERITE, EquipmentSlot.HEAD, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP), StatusEffects.SPEED));
     public static final Item AMETRINE_NETHERITE_CHESTPLATE = registerItem("ametrine_netherite_chestplate",
-            new AmetrineJumpBoost(ModArmorMaterials.AMETRINE_NETHERITE, EquipmentSlot.CHEST, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
+            new ArmorEffectItem(ModArmorMaterials.AMETRINE_NETHERITE, EquipmentSlot.CHEST, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP), StatusEffects.JUMP_BOOST));
     public static final Item AMETRINE_NETHERITE_LEGGINGS = registerItem("ametrine_netherite_leggings",
             new ArmorItem(ModArmorMaterials.AMETRINE_NETHERITE, EquipmentSlot.LEGS, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
     public static final Item AMETRINE_NETHERITE_BOOTS = registerItem("ametrine_netherite_boots",
@@ -104,9 +106,9 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.MYTHIC_UPGRADES_GROUP).food(ModFoodComponents.AQUAMARINE_FISH)));
 
     public static final Item AQUAMARINE_NETHERITE_HELMET = registerItem("aquamarine_netherite_helmet",
-            new AquamarineDolphinsGrace(ModArmorMaterials.AQUAMARINE_NETHERITE, EquipmentSlot.HEAD, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
+            new ArmorEffectItem(ModArmorMaterials.AQUAMARINE_NETHERITE, EquipmentSlot.HEAD, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP), StatusEffects.DOLPHINS_GRACE));
     public static final Item AQUAMARINE_NETHERITE_CHESTPLATE = registerItem("aquamarine_netherite_chestplate",
-            new AquamarineConduitPower(ModArmorMaterials.AQUAMARINE_NETHERITE, EquipmentSlot.CHEST, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
+            new ArmorEffectItem(ModArmorMaterials.AQUAMARINE_NETHERITE, EquipmentSlot.CHEST, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP), StatusEffects.CONDUIT_POWER));
     public static final Item AQUAMARINE_NETHERITE_LEGGINGS = registerItem("aquamarine_netherite_leggings",
             new ArmorItem(ModArmorMaterials.AQUAMARINE_NETHERITE, EquipmentSlot.LEGS, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
     public static final Item AQUAMARINE_NETHERITE_BOOTS = registerItem("aquamarine_netherite_boots",
