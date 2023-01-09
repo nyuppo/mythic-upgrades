@@ -82,14 +82,6 @@ public class ModBlocks {
             new Block(FabricBlockSettings.of(Material.METAL)
                     .strength(5f, 6f).requiresTool()), ModItemGroup.MYTHIC_UPGRADES_GROUP);
 
-    public static final Block NETHER_URANIUM_ORE = registerBlock("nether_uranium_ore",
-            new OreBlock(FabricBlockSettings.of(Material.STONE)
-                    .sounds(BlockSoundGroup.BASALT).strength(2.5f, 2.1f).requiresTool(),
-                    UniformIntProvider.create(20, 160)), ModItemGroup.MYTHIC_UPGRADES_GROUP);
-    public static final Block URANIUM_BLOCK = registerBlock("uranium_block",
-            new Block(FabricBlockSettings.of(Material.METAL)
-                    .strength(5f, 6f).requiresTool()), ModItemGroup.MYTHIC_UPGRADES_GROUP);
-
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(MythicUpgrades.MOD_ID, name), block);

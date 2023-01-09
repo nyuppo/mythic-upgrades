@@ -114,8 +114,6 @@ public class ModItems {
     public static final Item AQUAMARINE_NETHERITE_BOOTS = registerItem("aquamarine_netherite_boots",
             new ArmorItem(ModArmorMaterials.AQUAMARINE_NETHERITE, EquipmentSlot.FEET, new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
 
-    public static final Item URANIUM = registerItem("uranium",
-            new Item(new FabricItemSettings().group(ModItemGroup.MYTHIC_UPGRADES_GROUP)));
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(MythicUpgrades.MOD_ID, name), item);
     }
