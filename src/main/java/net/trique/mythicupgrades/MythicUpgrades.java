@@ -13,7 +13,6 @@ public class MythicUpgrades implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
