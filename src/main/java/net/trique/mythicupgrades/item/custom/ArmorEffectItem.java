@@ -76,7 +76,7 @@ public class ArmorEffectItem extends ArmorItem {
 
         // effect repeat issue fix
         if (player.getActiveStatusEffects().containsKey(this.effect)) {
-            if (player.getActiveStatusEffects().get(this.effect).getDuration() < (effectDuration / 2)) {
+            if (player.getActiveStatusEffects().get(this.effect).getDuration() <= (effectDuration / 2)) {
                 player.addStatusEffect(new StatusEffectInstance(this.effect, effectDuration, amplifier, false, false, false));
             }
         }
