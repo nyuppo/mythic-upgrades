@@ -12,7 +12,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
 public class ArmorEffectItem extends ArmorItem {
-    private static final int effectDuration = 400;
+    private static final int effectDuration = 200;
     private static final int amplifier = 0;
     private final StatusEffect effect;
 
@@ -76,7 +76,7 @@ public class ArmorEffectItem extends ArmorItem {
 
         // effect repeat issue fix
         if (player.getActiveStatusEffects().containsKey(this.effect)) {
-            if (player.getActiveStatusEffects().get(this.effect).getDuration() < 221) {
+            if (player.getActiveStatusEffects().get(this.effect).getDuration() < (effectDuration / 2)) {
                 player.addStatusEffect(new StatusEffectInstance(this.effect, effectDuration, amplifier, false, false, false));
             }
         }
