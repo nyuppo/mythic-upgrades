@@ -4,10 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.item.ArmorItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ShovelItem;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.trique.mythicupgrades.MythicUpgrades;
@@ -23,9 +20,9 @@ public class ModItems {
     public static final Item SAPPHIRE_NETHERITE_SWORD = registerItem("sapphire_netherite_sword",
             new SwordItem(ModToolMaterials.SAPPHIRE_NETHERITE, 4, -2.4f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item SAPPHIRE_NETHERITE_AXE = registerItem("sapphire_netherite_axe",
-            new ModAxeItem(ModToolMaterials.SAPPHIRE_NETHERITE, 5.5f, -3f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
+            new AxeItem(ModToolMaterials.SAPPHIRE_NETHERITE, 5.5f, -3f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item SAPPHIRE_NETHERITE_PICKAXE = registerItem("sapphire_netherite_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.SAPPHIRE_NETHERITE, 1, -2.8f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
+            new PickaxeItem(ModToolMaterials.SAPPHIRE_NETHERITE, 1, -2.8f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item SAPPHIRE_NETHERITE_HOE = registerItem("sapphire_netherite_hoe",
             new ModHoeItem(ModToolMaterials.SAPPHIRE_NETHERITE, -3, 0f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item SAPPHIRE_NETHERITE_SHOVEL = registerItem("sapphire_netherite_shovel",
@@ -39,9 +36,9 @@ public class ModItems {
     public static final Item RUBY_NETHERITE_SWORD = registerItem("ruby_netherite_sword",
             new SwordItem(ModToolMaterials.RUBY_NETHERITE, 3, -1.8f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item RUBY_NETHERITE_AXE = registerItem("ruby_netherite_axe",
-            new ModAxeItem(ModToolMaterials.RUBY_NETHERITE, 5f, -2.4f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
+            new AxeItem(ModToolMaterials.RUBY_NETHERITE, 5f, -2.4f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item RUBY_NETHERITE_PICKAXE = registerItem("ruby_netherite_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.RUBY_NETHERITE, 1, -2.2f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
+            new PickaxeItem(ModToolMaterials.RUBY_NETHERITE, 1, -2.2f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item RUBY_NETHERITE_HOE = registerItem("ruby_netherite_hoe",
             new ModHoeItem(ModToolMaterials.RUBY_NETHERITE, -3, 1f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item RUBY_NETHERITE_SHOVEL = registerItem("ruby_netherite_shovel",
@@ -69,9 +66,9 @@ public class ModItems {
     public static final Item TOPAZ_NETHERITE_SWORD = registerItem("topaz_netherite_sword",
             new SwordItem(ModToolMaterials.TOPAZ_NETHERITE, 3, -2.4f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item TOPAZ_NETHERITE_AXE = registerItem("topaz_netherite_axe",
-            new ModAxeItem(ModToolMaterials.TOPAZ_NETHERITE, 5f, -3f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
+            new AxeItem(ModToolMaterials.TOPAZ_NETHERITE, 5f, -3f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item TOPAZ_NETHERITE_PICKAXE = registerItem("topaz_netherite_pickaxe",
-            new ModPickaxeItem(ModToolMaterials.TOPAZ_NETHERITE, 1, -2.8f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
+            new PickaxeItem(ModToolMaterials.TOPAZ_NETHERITE, 1, -2.8f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item TOPAZ_NETHERITE_HOE = registerItem("topaz_netherite_hoe",
             new ModHoeItem(ModToolMaterials.TOPAZ_NETHERITE, -3, 0f,(new FabricItemSettings().fireproof().group(ModItemGroup.MYTHIC_UPGRADES_GROUP))));
     public static final Item TOPAZ_NETHERITE_SHOVEL = registerItem("topaz_netherite_shovel",
